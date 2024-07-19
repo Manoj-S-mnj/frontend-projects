@@ -1,0 +1,102 @@
+*{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: Söhne, -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+}
+title{
+    display:none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 320px;
+    
+}
+
+.logo{
+    padding-top: 50px;
+    padding-bottom: 110px;
+    display: flex;
+    height: 65px;
+    width: 65px;
+}
+h1{
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    font-size: 35px;
+    justify-content: center;  
+}
+
+input{
+    justify-content: center;
+    padding: 18px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+input:active{
+    border:ipx solid #10a37f;
+}
+.continue{
+    display: flex;
+    font-size: 15px;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: #10a37f;
+    border-radius: 7px;
+    margin-top: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.sign-up{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.sign-up a{
+    text-decoration: none;
+    padding-left: 5px;
+    color: #10a37f;
+}
+
+.divider {
+    width:100%;
+}
+
+.social-container button{
+    border: 1px solid rgb(156, 156, 156);
+    width: 100%;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: start;
+}
+.social-container button img{
+    height: 25px;
+    width: 25px;
+   margin-right: 10px;
+}
+.social-container button:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.social-container{
+    width: 100%;
+}
+
+.terms{
+    padding-top: 70px;
+    color: #10a37f;
+    width: 100%;
+}
